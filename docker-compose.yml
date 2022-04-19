@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  php:
+    image: php:8-apache
+    volumes:
+      - /media/oscar/Seagate EXT/DAW/2nDAW/MP06/Activitat3/AjaxPost:/var/www/html
+    expose:
+      - 80
+    ports:
+      - 80:80
